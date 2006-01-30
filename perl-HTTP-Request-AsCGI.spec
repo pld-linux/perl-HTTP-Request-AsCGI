@@ -8,19 +8,19 @@
 Summary:	HTTP::Request::AsCGI - Setup a CGI enviroment from a HTTP::Request
 Summary(pl):	HTTP::Request::AsCGI - ustawianie ¶rodowiska CGI z HTTP::Request
 Name:		perl-HTTP-Request-AsCGI
-Version:	0.2
+Version:	0.5
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6180359421936b6a9579a4fb00c82d82
+# Source0-md5:	e1f5d332969d072a19d9649ed7d77f59
 URL:		http://search.cpan.org/dist/HTTP-Request-AsCGI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Class-Accessor
-BuildRequires:	perl-libwww
+BuildRequires:	perl-libwww >= 5.805
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
