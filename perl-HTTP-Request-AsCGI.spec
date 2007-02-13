@@ -6,7 +6,7 @@
 %define	pdir	HTTP
 %define	pnam	Request-AsCGI
 Summary:	HTTP::Request::AsCGI - Setup a CGI enviroment from a HTTP::Request
-Summary(pl.UTF-8):   HTTP::Request::AsCGI - ustawianie środowiska CGI z HTTP::Request
+Summary(pl.UTF-8):	HTTP::Request::AsCGI - ustawianie środowiska CGI z HTTP::Request
 Name:		perl-HTTP-Request-AsCGI
 Version:	0.5
 Release:	1
