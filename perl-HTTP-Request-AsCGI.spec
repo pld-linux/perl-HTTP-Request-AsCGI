@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTTP
 %define	pnam	Request-AsCGI
-Summary:	HTTP::Request::AsCGI - Setup a CGI enviroment from a HTTP::Request
+Summary:	HTTP::Request::AsCGI - Setup a CGI environment from a HTTP::Request
 Summary(pl.UTF-8):	HTTP::Request::AsCGI - ustawianie środowiska CGI z HTTP::Request
 Name:		perl-HTTP-Request-AsCGI
 Version:	0.5
@@ -26,7 +26,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Provides a convinient way of setting up an CGI enviroment from a
+Provides a convinient way of setting up an CGI environment from a
 HTTP::Request.
 
 %description -l pl.UTF-8
