@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTTP
 %define	pnam	Request-AsCGI
 Summary:	HTTP::Request::AsCGI - Setup a CGI environment from a HTTP::Request
